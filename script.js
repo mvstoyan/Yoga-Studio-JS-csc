@@ -88,7 +88,6 @@ items.forEach(item => {
     }
 })
 
-
 //go to back
 
 const myButton = document.querySelector("#myBtn");
@@ -100,7 +99,7 @@ function scrollFunction() {
     } 
     else {
     myButton.style.display = "none";
-   }
+    }
 }
 
 myButton.addEventListener("click", () => {
